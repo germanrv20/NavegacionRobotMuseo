@@ -1,0 +1,1273 @@
+<root>
+<World>
+<!--  Información del proyecto y matrículas -->
+<WorldInfo name="Almacen Logistico - GyNR UPM">
+<RegisterNumber number="250827"/>
+<RegisterNumber number="261203"/>
+<RegisterNumber number="261020"/>
+</WorldInfo>
+<FaceSetPart name="Museo_3x3" id="0">
+<!--  ==================== SUELO PRINCIPAL (28m x 28m) ====================  -->
+<face>
+<colour r="0.6" g="0.4" b="0.4"/>
+<vertex> {0,0,0} {28,0,0} {28,28,0} {0,28,0} </vertex>
+</face>
+<!--  ==================== PAREDES PARALELAS AL EJE X (ALTO 2.8m) ====================  -->
+<!--  Perímetro Exterior Sur (Y=0) y Norte (Y=28)  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {28.00,0,0} {28.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.00,0.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {28.00,0,0} {28.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.00,28.00,0}</position>
+</face>
+<!--  Tabiques Fila Sur (Y=8): Sala 1 (puerta N), Sala 2 (cerrada N), Sala 3 (puerta N)  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.00,8.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{5.00,8.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {8.00,0,0} {8.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{10.00,8.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{20.00,8.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{25.00,8.00,0}</position>
+</face>
+<!--  Tabiques Fila Central (Y=10 y Y=18): Salas 4, 5 (Rotonda) y 6  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.00,10.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{5.00,10.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.00,18.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{5.00,18.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{10.00,10.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{15.00,10.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{10.00,18.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{15.00,18.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{20.00,10.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{25.00,10.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{20.00,18.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{25.00,18.00,0}</position>
+</face>
+<!--  Tabiques Fila Norte (Y=20): Sala 7 (puerta S), Sala 8 (cerrada S), Sala 9 (puerta S)  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.00,20.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{5.00,20.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {8.00,0,0} {8.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{10.00,20.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{20.00,20.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {3.00,0,0} {3.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{25.00,20.00,0}</position>
+</face>
+<!--  Tabique divisor en Pasillo Vertical Oeste (X: 8 a 10, Y=14)  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.00,0,0} {2.00,2.8,0} {0,2.8,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{8.00,14.00,0}</position>
+</face>
+<!--  ==================== PAREDES PARALELAS AL EJE Y (ALTO 2.8m) ====================  -->
+<!--  Perímetro Exterior Oeste (X=0) y Este (X=28)  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,28.00,0} {0,28.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{0.00,0.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,28.00,0} {0,28.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{28.00,0.00,0}</position>
+</face>
+<!--  Tabiques Fila Sur (X=8, 10, 18, 20): puertas de 2m en Y: 3 a 5  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{8.00,0.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{8.00,5.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{10.00,0.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{10.00,5.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{18.00,0.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{18.00,5.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{20.00,0.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{20.00,5.00,0}</position>
+</face>
+<!--  Tabiques Fila Central (X=8, 10, 18, 20): Sala 4 cerrada E, Sala 5 puertas O/E, Sala 6 cerrada O  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,8.00,0} {0,8.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{8.00,10.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{10.00,10.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{10.00,15.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{18.00,10.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{18.00,15.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,8.00,0} {0,8.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{20.00,10.00,0}</position>
+</face>
+<!--  Tabiques Fila Norte (X=8, 10, 18, 20): puertas de 2m en Y: 23 a 25  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{8.00,20.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{8.00,25.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{10.00,20.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{10.00,25.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{18.00,20.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{18.00,25.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{20.00,20.00,0}</position>
+</face>
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,3.00,0} {0,3.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{20.00,25.00,0}</position>
+</face>
+<!--  Tabique divisor en Pasillo Horizontal Norte (X=19, Y: 18 a 20)  -->
+<face>
+<colour r="0.9" g="0.9" b="0.5"/>
+<vertex>{0,0,0} {2.8,0,0} {2.8,2.00,0} {0,2.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{19.00,18.00,0}</position>
+</face>
+<!--  ==================== SALA 1 (SO): ESTANTERÍA OESTE + MESA CENTRAL ====================  -->
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,5.00,0} {0,5.00,0}</vertex>
+<position>{0.10,1.50,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.10,1.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.10,6.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{0.10,1.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{0.80,1.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,1.60,0} {0,1.60,0}</vertex>
+<position>{3.20,3.20,0.85}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{3.20,3.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{3.20,4.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.60,0} {0,1.60,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{3.20,3.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.60,0} {0,1.60,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{4.80,3.20,0}</position>
+</face>
+<!--  ==================== SALA 2 (S): 4 VITRINAS CENTRALES ====================  -->
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,1.20,0} {0,1.20,0}</vertex>
+<position>{11.80,1.50,0.90}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.80,1.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.80,2.70,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{11.80,1.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{13.20,1.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,1.20,0} {0,1.20,0}</vertex>
+<position>{14.80,1.50,0.90}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{14.80,1.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{14.80,2.70,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{14.80,1.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{16.20,1.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,1.20,0} {0,1.20,0}</vertex>
+<position>{11.80,5.30,0.90}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.80,5.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.80,6.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{11.80,5.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{13.20,5.30,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,1.20,0} {0,1.20,0}</vertex>
+<position>{14.80,5.30,0.90}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{14.80,5.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{14.80,6.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{14.80,5.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{16.20,5.30,0}</position>
+</face>
+<!--  ==================== SALA 3 (SE): ESTANTERÍAS S Y E + MESA ALARGADA ====================  -->
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,0.70,0} {0,0.70,0}</vertex>
+<position>{21.50,0.10,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{21.50,0.10,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{21.50,0.80,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.70,0} {0,0.70,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{21.50,0.10,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.70,0} {0,0.70,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{26.50,0.10,0}</position>
+</face>
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,5.00,0} {0,5.00,0}</vertex>
+<position>{27.20,1.50,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{27.20,1.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{27.20,6.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{27.20,1.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{27.90,1.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {2.50,0,0} {2.50,1.20,0} {0,1.20,0}</vertex>
+<position>{23.00,2.50,0.85}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {2.50,0,0} {2.50,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{23.00,2.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {2.50,0,0} {2.50,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{23.00,3.70,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{23.00,2.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{25.50,2.50,0}</position>
+</face>
+<!--  ==================== SALA 4 (O): ESTANTERÍA OESTE + 2 MESAS PARALELAS ====================  -->
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,5.00,0} {0,5.00,0}</vertex>
+<position>{0.10,11.50,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.10,11.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.10,16.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{0.10,11.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{0.80,11.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {3.50,0,0} {3.50,1.00,0} {0,1.00,0}</vertex>
+<position>{2.50,12.20,0.85}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {3.50,0,0} {3.50,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{2.50,12.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {3.50,0,0} {3.50,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{2.50,13.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.00,0} {0,1.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{2.50,12.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.00,0} {0,1.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{6.00,12.20,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {3.50,0,0} {3.50,1.00,0} {0,1.00,0}</vertex>
+<position>{2.50,14.80,0.85}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {3.50,0,0} {3.50,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{2.50,14.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {3.50,0,0} {3.50,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{2.50,15.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.00,0} {0,1.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{2.50,14.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.00,0} {0,1.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{6.00,14.80,0}</position>
+</face>
+<!--  ==================== SALA 5 (GRAN ROTONDA CENTRAL): 4 VITRINAS ====================  -->
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,1.50,0} {0,1.50,0}</vertex>
+<position>{11.20,11.20,0.95}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,0.95,0} {0,0.95,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.20,11.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,0.95,0} {0,0.95,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.20,12.70,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.95,0,0} {0.95,1.50,0} {0,1.50,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{11.20,11.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.95,0,0} {0.95,1.50,0} {0,1.50,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{12.70,11.20,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,1.50,0} {0,1.50,0}</vertex>
+<position>{15.30,11.20,0.95}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,0.95,0} {0,0.95,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{15.30,11.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,0.95,0} {0,0.95,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{15.30,12.70,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.95,0,0} {0.95,1.50,0} {0,1.50,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{15.30,11.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.95,0,0} {0.95,1.50,0} {0,1.50,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{16.80,11.20,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,1.50,0} {0,1.50,0}</vertex>
+<position>{11.20,15.30,0.95}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,0.95,0} {0,0.95,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.20,15.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,0.95,0} {0,0.95,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.20,16.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.95,0,0} {0.95,1.50,0} {0,1.50,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{11.20,15.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.95,0,0} {0.95,1.50,0} {0,1.50,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{12.70,15.30,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,1.50,0} {0,1.50,0}</vertex>
+<position>{15.30,15.30,0.95}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,0.95,0} {0,0.95,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{15.30,15.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.50,0,0} {1.50,0.95,0} {0,0.95,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{15.30,16.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.95,0,0} {0.95,1.50,0} {0,1.50,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{15.30,15.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.95,0,0} {0.95,1.50,0} {0,1.50,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{16.80,15.30,0}</position>
+</face>
+<!--  ==================== SALA 6 (E): DOBLE ESTANTERÍA + MESA CENTRAL ====================  -->
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,5.00,0} {0,5.00,0}</vertex>
+<position>{20.10,11.50,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{20.10,11.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{20.10,16.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{20.10,11.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{20.80,11.50,0}</position>
+</face>
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,5.00,0} {0,5.00,0}</vertex>
+<position>{27.20,11.50,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{27.20,11.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{27.20,16.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{27.20,11.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{27.90,11.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.20,0,0} {1.20,3.40,0} {0,3.40,0}</vertex>
+<position>{23.40,12.30,0.85}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.20,0,0} {1.20,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{23.40,12.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.20,0,0} {1.20,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{23.40,15.70,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,3.40,0} {0,3.40,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{23.40,12.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,3.40,0} {0,3.40,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{24.60,12.30,0}</position>
+</face>
+<!--  ==================== SALA 7 (NO): ESTANTERÍAS EN L + MESA CENTRAL ====================  -->
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,0.70,0} {0,0.70,0}</vertex>
+<position>{1.50,27.20,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{1.50,27.20,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{1.50,27.90,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.70,0} {0,0.70,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{1.50,27.20,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.70,0} {0,0.70,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{6.50,27.20,0}</position>
+</face>
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,5.00,0} {0,5.00,0}</vertex>
+<position>{0.10,21.50,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.10,21.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{0.10,26.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{0.10,21.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{0.80,21.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {2.00,0,0} {2.00,2.00,0} {0,2.00,0}</vertex>
+<position>{3.00,23.00,0.85}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {2.00,0,0} {2.00,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{3.00,23.00,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {2.00,0,0} {2.00,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{3.00,25.00,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,2.00,0} {0,2.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{3.00,23.00,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,2.00,0} {0,2.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{5.00,23.00,0}</position>
+</face>
+<!--  ==================== SALA 8 (N): ESTANTERÍA NORTE + 3 MESAS ====================  -->
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,0.70,0} {0,0.70,0}</vertex>
+<position>{11.50,27.20,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.50,27.20,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.50,27.90,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.70,0} {0,0.70,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{11.50,27.20,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.70,0} {0,0.70,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{16.50,27.20,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.80,0,0} {1.80,1.30,0} {0,1.30,0}</vertex>
+<position>{11.60,21.50,0.85}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.80,0,0} {1.80,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.60,21.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.80,0,0} {1.80,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{11.60,22.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.30,0} {0,1.30,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{11.60,21.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.30,0} {0,1.30,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{13.40,21.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.80,0,0} {1.80,1.30,0} {0,1.30,0}</vertex>
+<position>{14.60,21.50,0.85}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.80,0,0} {1.80,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{14.60,21.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.80,0,0} {1.80,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{14.60,22.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.30,0} {0,1.30,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{14.60,21.50,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.30,0} {0,1.30,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{16.40,21.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {2.00,0,0} {2.00,1.20,0} {0,1.20,0}</vertex>
+<position>{13.00,24.80,0.85}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {2.00,0,0} {2.00,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{13.00,24.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {2.00,0,0} {2.00,0.85,0} {0,0.85,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{13.00,26.00,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{13.00,24.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.85,0,0} {0.85,1.20,0} {0,1.20,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{15.00,24.80,0}</position>
+</face>
+<!--  ==================== SALA 9 (NE): ESTANTERÍAS N Y E + 2 VITRINAS ====================  -->
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,0.70,0} {0,0.70,0}</vertex>
+<position>{21.50,27.20,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{21.50,27.20,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {5.00,0,0} {5.00,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{21.50,27.90,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.70,0} {0,0.70,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{21.50,27.20,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,0.70,0} {0,0.70,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{26.50,27.20,0}</position>
+</face>
+<face>
+<colour r="0.55" g="0.55" b="0.55"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,5.00,0} {0,5.00,0}</vertex>
+<position>{27.20,21.50,1.60}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{27.20,21.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {0.70,0,0} {0.70,1.60,0} {0,1.60,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{27.20,26.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{27.20,21.50,0}</position>
+</face>
+<face>
+<colour r="0.45" g="0.45" b="0.45"/>
+<vertex>{0,0,0} {1.60,0,0} {1.60,5.00,0} {0,5.00,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{27.90,21.50,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,1.40,0} {0,1.40,0}</vertex>
+<position>{21.80,21.80,0.90}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{21.80,21.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.40,0,0} {1.40,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{21.80,23.20,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.40,0} {0,1.40,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{21.80,21.80,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.40,0} {0,1.40,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{23.20,21.80,0}</position>
+</face>
+<face>
+<colour r="0.75" g="0.75" b="0.3"/>
+<vertex>{0,0,0} {1.30,0,0} {1.30,1.30,0} {0,1.30,0}</vertex>
+<position>{24.00,24.00,0.90}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.30,0,0} {1.30,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{24.00,24.00,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {1.30,0,0} {1.30,0.90,0} {0,0.90,0}</vertex>
+<orientation>{1.5708,0,0}</orientation>
+<position>{24.00,25.30,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.30,0} {0,1.30,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{24.00,24.00,0}</position>
+</face>
+<face>
+<colour r="0.6" g="0.6" b="0.2"/>
+<vertex>{0,0,0} {0.90,0,0} {0.90,1.30,0} {0,1.30,0}</vertex>
+<orientation>{0,-1.5708,0}</orientation>
+<position>{25.30,24.00,0}</position>
+</face>
+</FaceSetPart>
+<!--  ==================== ROBOT PIONEER 3-AT Y SENSORES CALIBRADOS ====================  -->
+<Pioneer3ATSim name="Marvin" id="1">
+<position>{1.80,1.50,0}</position>
+<orientation>{0,0,0}</orientation>
+</Pioneer3ATSim>
+<LMS100Sim name="LMS100" linkTo="$Marvin$">
+<position>{0.1,0,0.4}</position>
+<colour r="0" g="1" b="0"/>
+</LMS100Sim>
+<UltrasonicSensor name="uc0" linkTo="$Marvin$" conusAngle="0.35">
+<orientation>{0,0,0.0000}</orientation>
+<position>{0.22,0.00,0.35}</position>
+<colour r="0" g="0" b="1"/>
+</UltrasonicSensor>
+<UltrasonicSensor name="ul1" linkTo="$Marvin$" conusAngle="0.35">
+<orientation>{0,0,0.7854}</orientation>
+<position>{0.18,0.18,0.35}</position>
+<colour r="0" g="0" b="1"/>
+</UltrasonicSensor>
+<UltrasonicSensor name="ur1" linkTo="$Marvin$" conusAngle="0.35">
+<orientation>{0,0,-0.7854}</orientation>
+<position>{0.18,-0.18,0.35}</position>
+<colour r="0" g="0" b="1"/>
+</UltrasonicSensor>
+<UltrasonicSensor name="ul2" linkTo="$Marvin$" conusAngle="0.35">
+<orientation>{0,0,1.5708}</orientation>
+<position>{0.00,0.22,0.35}</position>
+<colour r="0" g="0" b="1"/>
+</UltrasonicSensor>
+<UltrasonicSensor name="ur2" linkTo="$Marvin$" conusAngle="0.35">
+<orientation>{0,0,-1.5708}</orientation>
+<position>{0.00,-0.22,0.35}</position>
+<colour r="0" g="0" b="1"/>
+</UltrasonicSensor>
+<!--  ==================== 10 BALIZAS REFLECTANTES OPTIMIZADAS ====================  -->
+<LandMark name="LM1" mark_id="1">
+<position>{7.70,1.00,0.4}</position>
+</LandMark>
+<LandMark name="LM2" mark_id="2">
+<position>{14.00,7.70,0.4}</position>
+</LandMark>
+<LandMark name="LM3" mark_id="3">
+<position>{20.30,7.70,0.4}</position>
+</LandMark>
+<LandMark name="LM4" mark_id="4">
+<position>{21.00,17.70,0.4}</position>
+</LandMark>
+<LandMark name="LM5" mark_id="5">
+<position>{20.30,26.90,0.4}</position>
+</LandMark>
+<LandMark name="LM6" mark_id="6">
+<position>{10.30,26.90,0.4}</position>
+</LandMark>
+<LandMark name="LM7" mark_id="7">
+<position>{7.70,20.30,0.4}</position>
+</LandMark>
+<LandMark name="LM8" mark_id="8">
+<position>{7.70,17.70,0.4}</position>
+</LandMark>
+<LandMark name="LM9" mark_id="9">
+<position>{17.70,17.70,0.4}</position>
+</LandMark>
+<LandMark name="LM10" mark_id="10">
+<position>{9.00,9.00,0.4}</position>
+</LandMark>
+</World>
+</root>
